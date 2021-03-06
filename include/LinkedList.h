@@ -3,12 +3,12 @@
 
 #include <Arduino.h>
 
-// #define __FPRINT__                                                  \
-//     if (Serial) {                                                   \
-//         Serial.printf("%s \t%s \n", __FILE__, __PRETTY_FUNCTION__); \
-//         while (!Serial) {                                           \
-//         }                                                           \
-//     }
+/* #define __FPRINT__                                                  \
+       if (Serial) {                                                   \
+           Serial.printf("%s \t%s \n", __FILE__, __PRETTY_FUNCTION__); \
+           while (!Serial) {                                           \
+           }                                                           \
+     }*/
 
 template <typename T>
 class LinkedList {
