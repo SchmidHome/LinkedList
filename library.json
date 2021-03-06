@@ -1,0 +1,16 @@
+{
+    "name": "LinkedList",
+    "version": "0.1.0",
+    "description": "A light weight linked List",
+    "keywords": "timer, stopwatch",
+    "authors": {
+        "name": "Johannes Schmid"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Emergency1999/LinkedList.git"
+    },
+    "license": "MIT",
+    "frameworks": "Arduino",
+    "platforms": "*"
+}
