@@ -14,8 +14,8 @@ template <typename T>
 class LinkedList {
    private:
     struct node {
-        const T* data;
         struct node* next;
+        const T* data;
         node(const T* data) : next(nullptr), data(data) {}
     };
     node* head;
