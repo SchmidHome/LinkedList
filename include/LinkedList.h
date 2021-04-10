@@ -81,6 +81,7 @@ class LinkedList {
         for (node* ptr = head; ptr; ptr = ptr->next, i++) {
             f(i, (T*)ptr->data);
         }
+        return *this;
     }
 
     template <typename S>
@@ -91,6 +92,7 @@ class LinkedList {
         for (node* ptr = head; ptr; ptr = ptr->next, i++) {
             f(i, (T*)ptr->data, self);
         }
+        return *this;
     }
     // template <typename F>
     // LinkedList& forEach(F& f) {  //? why is this an error
